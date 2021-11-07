@@ -1,0 +1,99 @@
+body{
+    background-color:#cc00ff;
+	color:#cc00ff;
+    height : 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: 18px;
+    font-weight: bold;
+	text-align: center;
+}
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.mainmenubtn1 {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn1:hover {
+    background-color: blue;
+    }
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child1{
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child1 a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown1:hover .dropdown-child1 {
+    display: block;
+}
+.mainmenubtn2 {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn2:hover {
+    background-color: blue;
+    }
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child2{
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child2 a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown2:hover .dropdown-child2 {
+    display: block;
+}
